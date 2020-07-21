@@ -1,3 +1,12 @@
+.pl-4{
+    padding-left: 4rem!important;
+}
+.w3-edu-info2 h4{
+    font-size: 1.2em;
+}
+.w3-edu-info2 h3{
+    padding-bottom: 5px;
+}
 .w3-edu-info2 h5{
     color: darkgoldenrod;
 }
@@ -19,7 +28,7 @@ input[type="button"], input[type="submit"] {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Amita', cursive;
+	font-family: 'DM Sans';
 }
 p {
 	margin: 0;
@@ -70,7 +79,7 @@ ul {
 
 .w3-banner-text p {
     font-size: 4.2em;
-    width: 70%;
+    width: 90%;
 }
 .w3-banner-img h3 {
     color: #fff;
@@ -89,22 +98,26 @@ ul {
 }
 .w3-banner-grid-right h3 {
   font-size: 3em;
-    color: #fff;
+    color:#dcad3f;
     letter-spacing: 2px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .w3-banner-grid-right p {
-    color:#c5c2c2;
+    color:#fcfcfc;
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 1px;
 }
 .w3-banner-img {
   border: 5px solid rgba(238, 238, 238, 0.53);
-    width: 400px;
+    /*width: 400px;
     height: 470px;
     padding: 63px;
-    margin: 0 auto;
+    margin: 0 auto;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /*-- button-effect --*/
 .thim-click-to-bottom {
@@ -302,7 +315,7 @@ ul {
     font-size:1.2em;
 } 
 .cd-stretchy-nav ul li:nth-of-type(2) a::after {
-    content: "\f05a";
+    content: "\f1fe";
 }
 .cd-stretchy-nav ul li:nth-of-type(3) a::after {
 	content: "\f0c0";
@@ -615,7 +628,6 @@ h3.w3-head-project {
 /*-- education and experience --*/
 .w3-edu-top {
     background: #212121;
-   
 }
 .w3-edu-grid-left h3 {
    color: #fff;
@@ -626,7 +638,7 @@ h3.w3-head-project {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .w3-edu-info2 span {
-    margin-left: 1.5em;
+    /*margin-left: 1.5em;*/
     color:#212121;
     text-transform: capitalize;
     background: #F09819;
@@ -667,7 +679,7 @@ h3.w3-head-project {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .w3-edu-info2 p {
-    color: #8a8a8a;
+    color: #f0ebeb;
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 1px;
@@ -764,8 +776,6 @@ background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, F
 }
 .skills-bar .bar_group__bar:nth-of-type(1) {
    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
-}
-    z-index: 9990 !important;
 }
 .skills-bar .bar_group__bar:nth-of-type(2) {
  background: #f4c4f3;  /* fallback for old browsers */
@@ -1076,7 +1086,7 @@ h4.modal-title {
     min-height: 12.5em;
     -webkit-appearance: none;
 }
-.contact input[type="submit"] ,button {
+.contact input[type="submit"] , #conbutton {
     outline: none;
     color: #fff;
     padding: .5em 2em;
@@ -1092,7 +1102,7 @@ h4.modal-title {
     float: right;
     letter-spacing: 1px;
 }
-.contact input[type="text"]:focus,.contact input[type="email"]:focus,.contact textarea:focus , button {
+.contact input[type="text"]:focus,.contact input[type="email"]:focus,.contact textarea:focus , #conbutton {
     border-color: #00b8ce;
 }
 .contact input[type="submit"]:hover,button:hover {
@@ -1152,7 +1162,6 @@ h4.modal-title {
     color: #fff;
     letter-spacing: 3px;
     margin-bottom: .5em;
-}
 }
 .w3ls_footer_grid_leftr a{
 	color:#999;
@@ -1235,11 +1244,15 @@ h4.modal-title {
 	.w3-banner-top {
     background: url(../images/ban6666.jpg) no-repeat -194px 0px;
     background-size: cover;
-	}
+    }
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+    }
 }
 @media(max-width:1080px){
 	.w3-banner-text p {
-    width: 67%;
+    width: 90%;
 	}
 	.w3-about-grid-right1 {
     margin: 0em 0;
@@ -1278,7 +1291,7 @@ h4.modal-title {
 
 @media(max-width:1024px){
 	.w3-banner-text p {
-    width: 82%;
+    width: 90%;
 	}
 	.w3-edu-info1 h4 {
     letter-spacing: 1px;
@@ -1324,7 +1337,7 @@ h4.modal-title {
 	.w3-about-grid-left2 h3 {
     letter-spacing: 1px;
 	}
-	.w3-edu-info-right1 {
+	/*.w3-edu-info-right1 {
     width: 33.33%;
     float: left;
 	}
@@ -1335,7 +1348,7 @@ h4.modal-title {
 	.w3-edu-info-right1 {
     width: 33.33%;
     float: left;
-	}
+	}*/
 	.w3-edu-grid-left {
     margin-left: 11em;
 	}
@@ -1353,9 +1366,13 @@ h4.modal-title {
 }
 @media(max-width:800px){
 	.w3-banner-img {
-    width: 370px;
+    /*width: 370px;
     height: 425px;
-    margin:0;
+    margin:0;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	}
 	.w3-banner-img h3 {
     font-size: 2.3em;
@@ -1397,7 +1414,7 @@ h4.modal-title {
 	.w3-edu-grid-header h3 {
     font-size: 2.5em;
 	}
-	.contact input[type="submit"],button {
+	.contact input[type="submit"],#conbutton {
     width: 25%;
     float: none;
     margin: 12px auto 0;
@@ -1453,10 +1470,11 @@ h4.modal-title {
 	.w3-banner-grids {
     padding: 9em 0 0 0;
 	}
-	.w3-banner-top {
+	/*.w3-banner-top {
     background: url(../images/ban6666.jpg) no-repeat -739px 0px;
     background-size: cover;
-	}
+    width: 640px;
+	}*/
 }
 @media(max-width:600px){
 	.w3-banner-img {
@@ -1538,6 +1556,23 @@ h4.modal-title {
 	}
 }
 @media(max-width:480px){
+    .w3-banner-top {
+        background: url(../images/ban6666.jpg) no-repeat -834px 0px;
+        background-size: cover;
+        width: 640px;
+        }
+    .w3l_footer{
+        padding: 1em 0em;
+        width: 640px;
+    }
+    .skills{
+        width: 640px;
+    }
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+        width: 640px;
+    }
 	.col-md-6.w3-banner-grid-left {
     width: 100%;
     float: left;
@@ -1563,14 +1598,14 @@ h4.modal-title {
     width: 100%;
     float: left;
 	}
-	.w3-edu-info-right1 {
+	/*.w3-edu-info-right1 {
     width: 100%;
     float: left;
 	}
 	.w3-edu-info-right2 {
     width: 100%;
     float: left;
-	}
+	}*/
 	.w3-agile-skills-grid {
     width: 100%;
     float: left;
@@ -1587,7 +1622,7 @@ h4.modal-title {
 	}
 	.title-w3ls h4, .w3ls-heading h3, .w3-about-head h3 {
     font-size: 3em;
-    color: #00bcd4;
+    color: #dcad3f;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
@@ -1650,8 +1685,13 @@ h4.modal-title {
     .w3-banner-top{
         background: url(../images/ban6666.jpg) no-repeat;
     background-size: cover;
-        width: 380px;
+        width: 414px;
         
+    }
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+        width: 414px;
     }
 	.w3-banner-grids {
     padding: 4em 0 0 0;
@@ -1696,7 +1736,15 @@ h4.modal-title {
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
     padding: 11px 29px 10px;
-	}
+    }
+    .skills{
+        padding: 2em 0em;
+        width: 414px;
+    }
+    .w3l_footer{
+        padding: 1em 0em;
+        width: 414px;
+    }
 }
 @media(max-width:384px){
 	.w3-about-grid-right1 h3 {
@@ -1709,7 +1757,18 @@ h4.modal-title {
 	}
 	.w3-banner-top {
     min-height: 800px;
-	}
+    }
+    .w3-banner-top{
+        background: url(../images/ban6666.jpg) no-repeat;
+    background-size: cover;
+        width: 414px;
+        
+    }
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+        width: 414px;
+    }
 	.agileinfo-dot {
     min-height: 800px;
 	}
@@ -1737,6 +1796,25 @@ h4.modal-title {
 	}
 }
 @media(max-width:375px){
+    .w3-banner-top{
+        background: url(../images/ban6666.jpg) no-repeat;
+    background-size: cover;
+        width: 380px;
+        
+    }
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+        width: 380px;
+    }
+    .w3l_footer{
+        padding: 1em 0em;
+        width: 380px;
+    }
+    .skills{
+        padding: 2em 0em;
+        width: 380px;
+    }
 	.w3-about-grid-left2 h3 {
     letter-spacing: 1px;
     font-size: 1.5em;
@@ -1783,8 +1861,18 @@ h4.modal-title {
         width: 380px;
         
     }
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+        width: 380px;
+    }
 }
 @media(max-width:320px){
+    .w3-edu-top {
+        background: #212121;
+        background-size: cover;
+        width: 380px;
+    }
 	.w3-banner-grids {
     padding: 2em 0 0 0;
 	}
