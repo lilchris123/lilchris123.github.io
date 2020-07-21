@@ -27,7 +27,7 @@
 	 <div class="contact" id="contact">
          <div class="container">
              <div class="col-md-1 buttonH">
-         <button type="button" onclick="window.location.href='index.html'">Home</button>
+         <button type="button" class="btn btn-primary" onclick="window.location.href='index.html'">Home</button>
          </div>
          </div>
          <div class="clearfix"></div>
@@ -39,14 +39,14 @@
 			<div class="contact-w3ls">
 				<form action="form-to-email.php" name="myemailform" method="post">
 					<div class="col-md-7 col-sm-7 contact-left agileits-w3layouts">
-						<input type="text" name="name" placeholder="Name" required="">
-						<input type="email"  class="email" name="email" placeholder="Email" required="">
-						<input type="text" name="subject" placeholder="Subject">
+						<input type="text" class="form-control" name="name" placeholder="Name" required="">
+						<input type="email"  class="form-control email" name="email" placeholder="Email" required="">
+						<input type="text" class="form-control" name="subject" placeholder="Subject">
 						
 					</div> 
 					<div class="col-md-5 col-sm-5 contact-right agileits-w3layouts">
 						<textarea name="message" placeholder="Message" required=""></textarea>
-						<input type="submit" name="submit" value="submit">
+						<button type="submit" class="btn btn-primary">Submit</button>
 					</div>
 					<div class="clearfix"> </div> 
 				</form>

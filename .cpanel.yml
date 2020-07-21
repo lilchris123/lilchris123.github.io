@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/t8gpauab44lx/public_html/
+  - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R images $DEPLOYPATH
+  - /bin/cp -R js $DEPLOYPATH
+  - /bin/cp contact.html $DEPLOYPATH
+  - /bin/cp home.html $DEPLOYPATH
+  - /bin/cp index.html $DEPLOYPATH
+  - /bin/cp thank-you.html $DEPLOYPATH
+  - /bin/cp form-to-emal.php $DEPLOYPATH
