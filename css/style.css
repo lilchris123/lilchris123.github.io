@@ -1157,7 +1157,7 @@ h4.modal-title {
 .w3ls_footer_grid_leftr{
     margin-top: 10px;
 }
-.w3ls_footer_grid_leftr h4{
+.w3ls_footer_grid_leftr h5{
 	font-size: 1.2em;
     color: #fff;
     letter-spacing: 3px;
@@ -1192,7 +1192,7 @@ h4.modal-title {
 .w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl i{
 	color:#212121;
 }
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftr h4{
+.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftr h5{
 	color:#44c7f4;
 }
 .w3ls_footer_grid_left {
