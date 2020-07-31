@@ -647,6 +647,19 @@ h3.w3-head-project {
     padding: 0.3em;
 	text-transform: capitalize;
 }
+.technologies{
+    margin: 0.3em 0em;
+}
+.technologies span {
+    margin: 5px 0px;
+    color:#212121;
+    text-transform: capitalize;
+    background: #F09819;
+    background: -webkit-linear-gradient(to right, #fff, #bfbbb5);
+    background: linear-gradient(to right, #fff, #bfbbb5);
+    padding: 0.2em;
+	text-transform: capitalize;
+}
 .w3-edu-info1 h3 {
     text-transform: capitalize;
     color: #dcad3f;
@@ -1482,7 +1495,7 @@ h4.modal-title {
 }
 @media(max-width:600px){
 	.w3-banner-img {
-    padding: 22px;
+    padding: 12px;
 	}
 	.w3-banner-text p {
     width: 100%;
