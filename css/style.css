@@ -315,17 +315,17 @@ ul {
     font-size:1.2em;
 } 
 .cd-stretchy-nav ul li:nth-of-type(2) a::after {
-    content: "\f1fe";
+    content: "\f0b1";
 }
 .cd-stretchy-nav ul li:nth-of-type(3) a::after {
 	content: "\f0c0";
 }
 .cd-stretchy-nav ul li:nth-of-type(4) a::after {
-    content: "\f03e";
+    content: "\f080";
 	font-size:1.1em;
 }
 .cd-stretchy-nav ul li:nth-of-type(5) a::after {
-	content: "\f009";
+	content: "\f1c1";
 }
 .cd-stretchy-nav ul li:nth-of-type(6) a::after {
     content: "\f1ea";
@@ -1201,6 +1201,10 @@ h4.modal-title {
     margin: 0;
     padding: 20px 20px;
 }
+.w3ls_footer_grid_left h5 {
+    margin-top: .5em;
+    color: #fff;
+}
 /*-- //footer --*/
 .map iframe{
 	width:100%;
@@ -1615,7 +1619,7 @@ h4.modal-title {
     width: 100%;
     margin: 0;
     padding: 13px 0px;
-	}
+    }
 	.w3-banner-top {
     background: url(../images/ban6666.jpg) no-repeat;
     background-size: cover;

@@ -1,569 +1,902 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head -->
+  <!-- Head -->
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Chris Mayol's Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="My Profolio" />
-	<!-- css -->
-	
-	<!-- font-awesome icons -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--<link href="css/bootstrap-social.css" rel="stylesheet" />-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	
-	<!-- //font-awesome icons -->
-	<link
-		href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-		rel="stylesheet" />
-	<link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet" />
-	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
-	<link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-	
-	<!-- Default-JavaScript-File -->
-	<script
-  		src="https://code.jquery.com/jquery-3.5.1.min.js"
-  		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  		crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<!-- //Default-JavaScript-File -->
-</head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chris Mayol's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="My Profolio" />
+    <!-- css -->
 
-<body>
-	<!-- banner -->
-	<section class="w3-banner-top" id="home">
-		<div class="agileinfo-dot">
-			<div class="w3layouts_menu">
-				<nav class="cd-stretchy-nav edit-content"><a class="cd-nav-trigger" href="#0">Menu <span aria-hidden="true"></span></a>
-					<ul>
-						<li><a class="scroll" href="#home"><span>Home</span></a></li>
-						<li><a class="scroll" href="#education"><span>Education</span></a></li>
-						<li><a class="scroll" href="#projects"><span>Projects</span></a></li>
-						<li><a class="scroll" href="#skills"><span>Skills</span></a></li>
-					</ul>
-				</nav>
+    <!-- font-awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--<link href="css/bootstrap-social.css" rel="stylesheet" />-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <!-- //font-awesome icons -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+    <!-- Default-JavaScript-File -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- //Default-JavaScript-File -->
+  </head>
+
+  <body>
+    <!-- banner -->
+    <section class="w3-banner-top" id="home">
+      <div class="agileinfo-dot">
+        <div class="w3layouts_menu">
+          <nav class="cd-stretchy-nav edit-content">
+            <a class="cd-nav-trigger" href="#0"
+              >Menu <span aria-hidden="true"></span
+            ></a>
+            <ul>
+              <li>
+                <a class="scroll" href="#home"><span>Home</span></a>
+              </li>
+              <li>
+                <a class="scroll" href="#experience"><span>Experience</span></a>
+              </li>
+              <li>
+                <a class="scroll" href="#projects"><span>Projects</span></a>
+              </li>
+              <li>
+                <a class="scroll" href="#skills"><span>Skills</span></a>
+			  </li>
+			  <li>
+				<a href="https://drive.google.com/file/d/1wKUPIttSPZu7PCjECMu3T8cdqh1-r_TL/view?usp=sharing" target="_blank"><span>Resume</span></a>
+			  </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="w3-banner-grids">
+          <div class="col-md-5 w3-banner-grid-left">
+            <div class="w3-banner-img">
+              <img
+                class="img-responsive py-2"
+                alt="img"
+                src="images/profilepic.jpg"
+              />
+              <h3 class="test">Chris Mayol</h3>
+
+              <p class="test">Software Engineer</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 w3-banner-grid-right">
+            <div class="w3-banner-text">
+              <h3>
+                Career Goal
+                <span class="spinner-grow text-warning" role="status"></span>
+                <span class="sr-only">Loading...</span>
+              </h3>
+
+              <p style="font-size: 1.4em;">
+                My main goal will be to obtain a position as a software engineer
+                or software developer that will help me build experience and
+                knowledge and allow for professional growth and advancement.
+              </p>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="spacing"></div>
+
+        <div class="clearfix">
+          <div class="container" id="about">
+            <div class="row">
+              <div
+                class="col-sm-4 col-md-4 col-lg-4 w3-banner-grid-right"
+                style="padding-bottom: 10px;"
+              >
+                <h3>
+                  About Me
+                </h3>
+              </div>
+
+              <div class="col-sm-9 col-md-12 col-lg-12 w3-banner-grid-right">
+                <div class="w3-banner-text">
+                  <p>
+                    I first became interested in the computer field back in
+                    highschool. In my spare time I would reverse engineer some
+                    video games and post my findings over to a public gaming
+                    forum, and ever since then I have been fascinated with
+                    computer science.<br /><br />
+                    In college, my focus went from lower assembly languages to
+                    higher languages like c++ and java. Interested in Problem
+                    solving I did computer security working on penetration
+                    testing, which helped me understand how operating systems
+                    work. After some computer forensics, I got into game
+                    development. Game programming was kinda difficult for me at
+                    first mainly because I wasn&#39;t used to the new libraries
+                    and game development concepts, such as a game loop, game
+                    objects, textures, and game physics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="thim-click-to-bottom">
+        <a href="#experience" class="scroll">
+          <i class="fa fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+    <!-- banner -->
+    <!--/ education -->
+    <section class="w3-edu-top">
+      <div class="container">
+        <div class="w3-edu-grids">
+          <div class="col-md-10" id="experience">
+            <div class="w3-edu-grid-header">
+              <h3>Experience</h3>
+            </div>
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-9">
+                <div class="row">
+                  <div class="col-md-3 w3-edu-info-right1">
+                    <h3>2020</h3>
+                  </div>
+
+                  <div class="col-md-9 w3-edu-info-right2">
+                    <h3>Wells Fargo</h3>
+                    <h4>Front-End Software Engineer</h4>
+                  </div>
+                </div>
+                <div class="py-4"></div>
+                <div class="row">
+                  <div class="col-md-3 w3-edu-info-right1">
+                    <h3>2019</h3>
+                  </div>
+
+                  <div class="col-md-9 w3-edu-info-right2">
+                    <h3>Collabera</h3>
+                    <h4>Full Stack Software Engineer</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pt-5"></div>
+          </div>
+
+          <div class="col-md-10" id="projects" style="color: white;">
+            <div class="w3-edu-grid-header">
+              <h3>Projects</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-4 w3-edu-info1">
+                <h3>web development</h3>
+              </div>
+
+              <div class="col-md-7 w3-edu-info2 pl-5">
+				<div class="py-4">
+					<h3>Community Hashtags</h3>
+  
+					<h4>
+					  <span>Web Application</span>
+					  <button
+						class="btn btn-sm btn-primary"
+						type="button"
+						data-toggle="collapse"
+						data-target="#hashtags"
+						aria-expanded="false"
+						aria-controls="hashtags"
+					  >
+						Show
+					  </button>
+					  <a
+                      href="http://communityhashtags.herokuapp.com/"
+                      target="_blank"
+                      class="btn btn-sm btn-success"
+                      >Live
+                	 </a>
+					</h4>
+  
+					<h5>React, Node, MongoDB, JavaScript, Bootstrap, Scss, Git</h5>
+  
+					<div class="collapse" id="hashtags">
+					  <p>
+						A social website that allows users to share their favorite hashtags with others. 
+						It also allows users to like other posts, allowing users to easily find new set of hashtags that are relevant to their niche.
+					  </p>
+					</div>
+				  </div>
+				  <div class="py-4">
+					<h3>NBA Market</h3>
+  
+					<h4>
+					  <span>Web Application</span>
+					  <button
+						class="btn btn-sm btn-primary"
+						type="button"
+						data-toggle="collapse"
+						data-target="#nba"
+						aria-expanded="false"
+						aria-controls="nba"
+					  >
+						Show
+					  </button>
+					  <a
+                      href="https://github.com/lilchris123/NBAMarket"
+                      target="_blank"
+                      class="btn btn-sm btn-dark"
+                      ><i class="fa fa-github" aria-hidden="true"></i></a>
+					</h4>
+  
+					<h5>Angular 8, TypeScript, SpringBoot, Java, MySQL, MongoDB, CSS, Git</h5>
+  
+					<div class="collapse" id="nba">
+					  <p>
+						Full stack fantasy NBA market website, where customers can buy players and place orders and can view their orders by logging in. 
+						Also, the admin can log in and fulfill customer orders and more administrative actions. Developed  MySQL and MongoDB versions.
+					  </p>
+					</div>
+				  </div>
+                <div class="py-4">
+                  <h3>Portfolio</h3>
+
+                  <h4>
+                    <span>Design</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#mysite"
+                      aria-expanded="false"
+                      aria-controls="mysite"
+                    >
+                      Show
+                    </button>
+                  </h4>
+
+                  <h5>HTML, CSS, JavaScript, Bootstrap, Git</h5>
+
+                  <div class="collapse" id="mysite">
+                    <p>
+                      This website was design mainly with Bootstrap, HTML, CSS
+                      and is responsive across all devices
+                    </p>
+                  </div>
+                </div>
+				
+                <div class="py-4">
+                  <h3>Fitness Website</h3>
+
+                  <h4>
+                    <span>Team Work</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#contentId"
+                      aria-expanded="false"
+                      aria-controls="contentId"
+                    >
+                      Show
+					</button>
+					<a
+                      href="https://github.com/langiole/fitness_website"
+                      target="_blank"
+                      class="btn btn-sm btn-dark"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></a>
+                  </h4>
+
+                  <h5>HTML, CSS, JavaScript, Bootstrap, Git</h5>
+
+                  <div class="collapse" id="contentId">
+                    <p>
+                      This website presented the user with a 2d human model in
+                      which you where able to click on a muscle and will load a
+                      list of exersices with video and a description targeting
+                      that muscle. Also, my team included other useful resource
+                      pages such as calculators, nutrition, workout guides, etc.
+                    </p>
+                  </div>
+				</div>
+				<div class="py-4">
+					<h3>Edge Online</h3>
+  
+					<h4>
+					  <span>Team Work</span>
+					  <button
+						class="btn btn-sm btn-primary"
+						type="button"
+						data-toggle="collapse"
+						data-target="#edge"
+						aria-expanded="false"
+						aria-controls="edge"
+					  >
+						Show
+					  </button>
+					  <a
+						href="https://github.com/mslckr/edge-online"
+						target="_blank"
+						class="btn btn-sm btn-dark"
+						><i class="fa fa-github" aria-hidden="true"></i
+					  ></a>
+					</h4>
+  
+					<h5>Angular 8, TypeScript, SpringBoot, Java, MySQL, MongoDB, CSS, Git</h5>
+  
+					<div class="collapse" id="edge">
+					  <p>
+						A gaming ecommerce store, where customers can buy gaming hardware. Team project, working with various full stack technologies.
+					  </p>
+					</div>
+				  </div>
+                <div class="py-4">
+                  <h3>Snowflake Generator</h3>
+
+                  <h4>
+                    <span>JavaScript</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#snow"
+                      aria-expanded="false"
+                      aria-controls="snow"
+                    >
+                      Show
+                    </button>
+                    <a
+                      href="https://github.com/lilchris123/Snowflake-Generator"
+                      target="_blank"
+                      class="btn btn-sm btn-dark"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></a>
+                  </h4>
+
+                  <h5>JavaScript, P5, HTML, CSS</h5>
+
+                  <div class="collapse" id="snow">
+                    <p>
+                      Simple program that generates a snowflake using the
+                      power of math!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="col-md-4 w3-edu-info1">
+                <h3>Game development</h3>
+              </div>
+
+              <div class="col-md-7 w3-edu-info2 pl-5">
+                <div class="py-4">
+                  <h3>Water Bunny 2D Platfomer Game</h3>
+
+                  <h4>
+                    <span>Advance Java</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#waterbunny"
+                      aria-expanded="false"
+                      aria-controls="waterbunny"
+                    >
+                      Show
+                    </button>
+                  </h4>
+
+                  <h5>Java, Game programming</h5>
+
+                  <div class="collapse" id="waterbunny">
+                    <p>
+                      This project introduced me to game programming. The
+                      concept of the game &quot;water bunny&quot; is, your a
+                      bunny swimming deep in the ocean floor with limited supply
+                      of oxygen and your goal is to survive as long as possible
+                      by collecting more oxygen, avoiding platforms and enemies
+                      that can hurt you. WaterBunny was created in andriod
+                      studio using Libgdx game engine and programmed in java.
+                    </p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <h3>Ping Pong Game</h3>
+
+                  <h4>
+                    <span>Advance C++</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#pong"
+                      aria-expanded="false"
+                      aria-controls="pong"
+                    >
+                      Show
+                    </button>
+                    <a
+                      href="https://github.com/lilchris123/pong-Game"
+                      target="_blank"
+                      class="btn btn-sm btn-dark"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></a>
+                  </h4>
+
+                  <h5>C++, SFML Framework, Box2D, Git</h5>
+
+                  <div class="collapse" id="pong">
+                    <p>
+                      Worked on this project mainly to work with new libraries.
+                      This project helped me expand on my knowledge of object
+                      oriented programming. Also, using Box2d physics engine was
+                      new and interesting for me.
+                    </p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <h3>Tetris</h3>
+
+                  <h4>
+                    <span>Advance C++</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#tetris"
+                      aria-expanded="false"
+                      aria-controls="tetris"
+                    >
+                      Show
+                    </button>
+                    <a
+                      href="https://github.com/lilchris123/Tetris-in-c-"
+                      target="_blank"
+                      class="btn btn-sm btn-dark"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></a>
+                  </h4>
+
+                  <h5>C++, SFML Framework, Git</h5>
+
+                  <div class="collapse" id="tetris">
+                    <p>
+                      Recreated classic tetris game with SFML graphics in visual
+                      studio. Great project for beginners in game development.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="col-md-4 w3-edu-info1">
+                <h3>App Development</h3>
+              </div>
+
+              <div class="col-md-7 w3-edu-info2 pl-5">
+                <div class="py-4">
+                  <h3>Fitness App</h3>
+
+                  <h4>
+                    <span>IOS Android</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#app"
+                      aria-expanded="false"
+                      aria-controls="app"
+                    >
+                      Show
+                    </button>
+                    <a
+                      href="https://github.com/lilchris123/Fit-life-Sample"
+                      class="btn btn-sm btn-dark"
+                      target="_blank"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></a>
+                  </h4>
+
+                  <h5>React-native, JavaScript Es6</h5>
+
+                  <div class="collapse" id="app">
+                    <p>
+                      Similar to fitness website, this app displays a 2d human
+                      model where the user interacts with and allowing them to
+                      browse exersices based on the muscle group they have
+                      picked or search for. This is just one of many features.
+                      This app is for IOS and Android platform and will be
+                      deployed soon. The github repo above is a sample of the
+                      actual private repo and is very outdated.
+                    </p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <h3>Date Calculator</h3>
+
+                  <h4>
+                    <span>C++ programming</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#calc"
+                      aria-expanded="false"
+                      aria-controls="calc"
+                    >
+                      Show
+                    </button>
+                  </h4>
+
+                  <h5>C++</h5>
+
+                  <div class="collapse" id="calc">
+                    <p>
+                      This school project was fairly simple, The calculator
+                      calculated the number of days between the dates entered.
+                      We had to put into account leap years and months that have
+                      different number of days. Helped me understand the basics
+                      of classes and inheritance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="col-md-4 w3-edu-info1">
+                <h3>Computer Security</h3>
+              </div>
+
+              <div class="col-md-7 w3-edu-info2 pl-5">
+                <div class="py-4">
+                  <h3>IOS Applications Exploitation</h3>
+
+                  <h4>
+                    <span>Problem Solving</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#exploit"
+                      aria-expanded="false"
+                      aria-controls="exploit"
+                    >
+                      Show
+                    </button>
+                  </h4>
+
+                  <h5>Kali Linux, OWASP ZAP, Burp Suite</h5>
+
+                  <div class="collapse" id="exploit">
+                    <p>
+                      While I was researching and learning about computer
+                      security, I worked on several projects. After learning
+                      about how SSL implementation was flawed in IOS, I started
+                      some man in the middle attacks on various IOS applications
+                      sending crafted requests to the application server,
+                      checking for weak security. I manage to exploit several
+                      applications, some were severe exploits. For the
+                      applications that were exploited, I made sure to notify
+                      the developer about the exploit.
+                    </p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <h3>Buffer Overflow Exploitation</h3>
+
+                  <h4>
+                    <span>payload</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#overflow"
+                      aria-expanded="false"
+                      aria-controls="overflow"
+                    >
+                      Show
+                    </button>
+                    <a
+                      href="https://github.com/lilchris123/Pentesting/blob/master/lab5.pdf"
+                      target="_blank"
+                      class="btn btn-sm btn-dark"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></a>
+                  </h4>
+
+                  <h5>Linux, Reverse engineering, C++</h5>
+
+                  <div class="collapse" id="overflow">
+                    <p>
+                      I was able to exploit a c program vulnerable to a buffer
+                      overflow exploit and spawn a shell.
+                    </p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <h3>WIFI Network Pentesting</h3>
+
+                  <h4>
+                    <span>scripting</span>
+                    <button
+                      class="btn btn-sm btn-primary"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#Wifi"
+                      aria-expanded="false"
+                      aria-controls="Wifi"
+                    >
+                      Show
+                    </button>
+                  </h4>
+
+                  <h5>Linux, Shell Scripting, Aircrack, Reaver</h5>
+
+                  <div class="collapse" id="Wifi">
+                    <p>
+                      Using Kali linux I was able to pentest my personal
+                      network. I used two methods to acheive this. First method
+                      was a wps pin brute force attack, I used aircrack and
+                      reaver scripts to run this attack. This will crack WPA2
+                      passwords for routers that are vulnerable. Updating your
+                      router to the latest update will patch this. Second method
+                      was an evil twin AP, which is basically a MITM social
+                      engineering attack prompting the target for the wifi
+                      password.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </section>
+    <!-- //education -->
+    <!---728x90--->
+    <!-- skills -->
+
+    <div class="skills" id="skills">
+      <div class="container">
+        <div class="title-w3ls">
+          <h4>My Skills</h4>
+        </div>
+
+        <div class="d-flex flex-row justify-content-around skills-bar">
+          <div class="col-md-6 w3-agile-skills-grid">
+            <section class="bar">
+              <section class="wrap">
+                <div class="wrap_right">
+                  <div class="bar_group">
+                    <div
+                      class="bar_group__bar thin"
+                      label="C++"
+                      show_values="true"
+                      tooltip="true"
+                      value="625"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="Java"
+                      show_values="true"
+                      tooltip="true"
+                      value="585"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="JavaScript"
+                      show_values="true"
+                      tooltip="true"
+                      value="550"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="HTML"
+                      show_values="true"
+                      tooltip="true"
+                      value="550"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="CSS"
+                      show_values="true"
+                      tooltip="true"
+                      value="550"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="clearfix"></div>
+              </section>
+            </section>
+          </div>
+
+          <div class="col-md-6 w3-agile-skills-grid">
+            <section class="bar">
+              <section class="wrap">
+                <div class="wrap_right">
+                  <div class="bar_group">
+                    <div
+                      class="bar_group__bar thin"
+                      label="Bootstrap"
+                      show_values="true"
+                      tooltip="true"
+                      value="475"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="C"
+                      show_values="true"
+                      tooltip="true"
+                      value="450"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="Sql"
+                      show_values="true"
+                      tooltip="true"
+                      value="425"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="Express"
+                      show_values="true"
+                      tooltip="true"
+                      value="300"
+                    ></div>
+
+                    <div
+                      class="bar_group__bar thin"
+                      label="Mongodb"
+                      show_values="true"
+                      tooltip="true"
+                      value="250"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="clearfix"></div>
+              </section>
+            </section>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //skills -->
+    <!-- footer -->
+
+    <div class="w3l_footer">
+      <div class="container">
+        <div class="w3ls_footer_grids">
+          <div class="w3ls_footer_grid">
+			<div class="col-4 w3ls_footer_grid_left">
+				<a
+				  href="https://drive.google.com/file/d/1wKUPIttSPZu7PCjECMu3T8cdqh1-r_TL/view?usp=sharing"
+				  target="_blank"
+				  class="btn btn-lg btn-primary"
+				>
+				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+				</a>
+				<h5>Resume</h5>
 			</div>
-
-			<div class="w3-banner-grids">
-				<div class="col-md-5 w3-banner-grid-left">
-					<div class="w3-banner-img">
-						<img class="img-responsive py-2" alt="img" src="images/profilepic.jpg" />
-						<h3 class="test">Chris Mayol</h3>
-
-						<p class="test">Software Engineer</p>
-					</div>
-				</div>
-
-				<div class="col-md-6 w3-banner-grid-right">
-					<div class="w3-banner-text">
-						<h3>Career Goal <span class="spinner-grow text-warning" role="status"></span>
-							<span class="sr-only">Loading...</span></h3>
-
-						<p style="font-size: 1.4em">My main goal will be to obtain a position as a software engineer or software developer
-							that will help me build experience and knowledge and allow for professional growth and
-							advancement.</p>
-					</div>
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-
-			<div class="spacing"></div>
-
-			<div class="clearfix">
-				<div class="container" id="about">
-					<div class="row">
-					<div class="col-sm-4 col-md-4 col-lg-4 w3-banner-grid-right" style="padding-bottom: 10px;">
-						<h3>About Me<span class="spinner-grow text-warning" role="status"></span>
-							<span class="sr-only">Loading...</span></h3>
-					</div>
-
-					<div class="col-sm-9 col-md-12 col-lg-12 w3-banner-grid-right">
-						<div class="w3-banner-text">
-							<p>I first became interested in the computer field back in highschool. In my spare time I
-								would reverse engineer some video games and post my findings over to a public gaming
-								forum, and ever since then I have been fascinated with computer science.<br/><br/>
-								In college, my focus went from lower assembly languages to higher languages like c++ and
-								java. Interested in Problem solving I did computer security working on penetration
-								testing, which helped me understand how operating systems work. After some computer
-								forensics, I got into game development. Game programming was kinda difficult for me at
-								first mainly because I wasn&#39;t used to the new libraries and game development
-								concepts, such as a game loop, game objects, textures, and game physics.</p>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="thim-click-to-bottom">
-			<a href="#education" class="scroll">
-			<i class="fa fa-chevron-down"></i>
-		</a></div>
-	</section>
-	<!-- banner -->
-	<!--/ education -->
-	<section class="w3-edu-top">
-		<div class="container">
-			<div class="w3-edu-grids">
-				<div class="col-md-10" id="education">
-					<div class="w3-edu-grid-header">
-						<h3>Education</h3>
-					</div>
-					<div class="row">
-						<div class="col-2"></div>
-					<div class="col-9">
-						<div class="row">
-						<div class="col-md-3 w3-edu-info-right1">
-							<h3>2017</h3>
-						</div>
-
-						<div class="col-md-9 w3-edu-info-right2">
-							<h3>Hunter College</h3>
-
-							<h4>Bachelors Degree in Computer Science</h4>
-						</div>
-						</div>
-						<div class="py-4"></div>
-						<div class="row">
-						<div class="col-md-3 w3-edu-info-right1">
-							<h3>2015</h3>
-						</div>
-
-						<div class="col-md-9 w3-edu-info-right2">
-							<h3>Borough of Manhattan Community College</h3>
-							<h4>Associate Degree in Computer Science</h4>
-						</div>
-						</div>
-					</div>
-					</div>
-					<div class="pt-5"></div>
-				</div>
-
-				<div class="col-md-10" id="projects" style="color: white">
-					<div class="w3-edu-grid-header">
-						<h3>Projects</h3>
-					</div>
-					<div class="row">
-					<div class="col-md-4 w3-edu-info1">
-						<h3>web development</h3>
-					</div>
-
-					<div class="col-md-7 w3-edu-info2 pl-5">
-							<div class="py-4">
-									<h3>My Website</h3>
-			
-									<h4><span>Design</span>
-										<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#mysite" aria-expanded="false"
-										aria-controls="mysite">Show
-										</button>
-										
-									</h4>
-			
-									<h5>HTML, CSS, JavaScript, Bootstrap, Git</h5>
-									
-									<div class="collapse" id="mysite">
-											<p>This website was design mainly with bootstrap, html, css and is responsive across all devices
-											</p>						
-									</div>
-								</div>
-						<div class="py-4">
-						<h3>Fitness Website</h3>
-
-						<h4><span>Team leader</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#contentId" aria-expanded="false"
-							aria-controls="contentId">Show
-							</button>
-							<button class="btn btn-sm btn-danger" type="button">Open</button>
-						</h4>
-
-						<h5>HTML, CSS, JavaScript, Bootstrap, Git</h5>
-						
-						<div class="collapse" id="contentId">
-								<p>This website presented the user with a 2d human model in which you where able to click on a
-										muscle and will load a list of exersices with video and a description targeting that muscle.
-										Also, my team included other useful resource pages such as calculators, nutrition, workout
-										guides, etc.
-								</p>						
-						</div>
-					</div>
-					<div class="py-4">
-							<h3>Snowflake Generator</h3>
-	
-							<h4><span>JavaScript</span>
-								<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#snow" aria-expanded="false"
-										aria-controls="snow">
-									Show
-								</button>
-								<a href="https://github.com/lilchris123/Snowflake-Generator" target="_blank" class="btn btn-sm btn-dark"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</h4>
-	
-							<h5>JavaScript, P5, HTML, CSS</h5>
-							
-							<div class="collapse" id="snow">
-								<p>Simple program that will generate a snowflake using the power of math!</p>
-							</div>
-							</div>
-						
-					</div>
-
-					<div class="clearfix"></div>
-
-					<div class="col-md-4 w3-edu-info1">
-						<h3>Game development</h3>
-					</div>
-
-					<div class="col-md-7 w3-edu-info2 pl-5">
-						<div class="py-4">
-						<h3>Water Bunny 2D Platfomer Game</h3>
-
-						<h4><span>Advance Java</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#waterbunny" aria-expanded="false"
-							aria-controls="waterbunny">
-							Show
-							</button>
-							<button class="btn btn-sm btn-danger" type="button">Open</button>
-						</h4>
-
-						<h5>Java, Libgdx Game Engine</h5>
-						
-						<div class="collapse" id="waterbunny">
-							<p>This project introduced me to game programming. The concept of the game &quot;water
-								bunny&quot; is, your a bunny swimming deep in the ocean floor with limited supply of oxygen
-								and your goal is to survive as long as possible by collecting more oxygen and avoiding
-								platforms, enemies that can hurt you. WaterBunny was created in andriod studio using Libgdx
-								game engine and written in java.</p>
-						</div>
-			
-						</div>
-						<div class="py-4">
-						<h3>Ping Pong Game</h3>
-
-						<h4><span>Advance C++</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#pong" aria-expanded="false"
-									aria-controls="pong">
-								Show
-							</button>
-							<a href="https://github.com/lilchris123/pong-Game" target="_blank" class="btn btn-sm btn-dark"><i class="fa fa-github" aria-hidden="true"></i></a>
-						</h4>
-
-						<h5>C++, SFML Framework, Box2D, Git </h5>
-						
-						<div class="collapse" id="pong">
-							<p>Worked on this project mainly to work with new libraries. This project helped me expand on my
-								knowledge of object oriented programming. Also, using Box2d physics engine was new and
-								interesting for me.</p>
-						</div>
-						</div>
-						<div class="py-4">
-						<h3>Tetris</h3>
-
-						<h4><span>Advance C++</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#tetris" aria-expanded="false"
-									aria-controls="tetris">
-								Show
-							</button>
-							<a href="https://github.com/lilchris123/Tetris-in-c-" target="_blank" class="btn btn-sm btn-dark"><i class="fa fa-github" aria-hidden="true"></i></a>
-						</h4>
-
-						<h5>C++, SFML Framework, Git</h5>
-						
-						<div class="collapse" id="tetris">
-							<p>Recreated classic tetris game with SFML graphics in visual studio. Great project for
-								beginners in game development.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="clearfix"></div>
-
-					<div class="col-md-4 w3-edu-info1">
-						<h3>App Development</h3>
-					</div>
-
-					<div class="col-md-7 w3-edu-info2 pl-5">
-							<div class="py-4">
-									<h3>Fitness App</h3>
-			
-									<h4><span>IOS Android</span>
-										<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#app" aria-expanded="false"
-												aria-controls="app">
-											Show
-										</button>
-										<a href="https://github.com/lilchris123/Fit-life-Sample" class="btn btn-sm btn-dark" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-									</h4>
-			
-									<h5>React-native, JavaScript Es6</h5>
-									
-									<div class="collapse" id="app">
-										<p>Similar to fitness website, this app displays a 2d human model where the user interacts with and 
-											allowing them to browse exersices based on the muscle group they have picked or search for. This is just one
-											of many features. This app is for IOS and Android platform and will be deployed soon. The github repo above is a sample 
-											of the actual private repo and is very outdated.</p>
-									</div>
-									</div>
-						<div class="py-4">
-						<h3>Date Calculator</h3>
-
-						<h4><span>C++ programming</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#calc" aria-expanded="false"
-									aria-controls="calc">
-								Show
-							</button>
-							<button class="btn btn-sm btn-danger" type="button">Open</button>
-						</h4>
-
-						<h5>C++</h5>
-						
-						<div class="collapse" id="calc">
-							<p>This school project was fairly simple, The calculator calculated the number of days between
-								the dates entered. We had to put into account leap years and months that have different
-								number of days. Helped me understand the basics of classes and inheritance.</p>
-						</div>
-						</div>
-					</div>
-
-					<div class="clearfix"></div>
-
-					<div class="col-md-4 w3-edu-info1">
-						<h3>Computer Security</h3>
-					</div>
-
-					<div class="col-md-7 w3-edu-info2 pl-5">
-						<div class="py-4">
-						<h3>IOS Applications Exploitation</h3>
-
-						<h4><span>Problem Solving</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#exploit" aria-expanded="false"
-									aria-controls="exploit">
-								Show
-							</button>
-							<button class="btn btn-sm btn-danger" type="button">Open</button>
-						</h4>
-
-						<h5>Kali Linux, OWASP ZAP, Burp Suite</h5>
-						
-						<div class="collapse" id="exploit">
-							<p>While I was researching and learning about computer security, I worked on several projects.
-								After learning about how SSL implementation was flawed in IOS, I started some man in the
-								middle attacks on various IOS applications sending crafted requests to the application
-								server, checking for weak security. I manage to exploit several applications, some were
-								severe server-sided exploits. For the applications that were exploited, I made sure to
-								notify the developer about the exploit.</p>
-						</div>
-						</div>
-						<div class="py-4">
-							<h3>Buffer Overflow Exploitation</h3>
-	
-							<h4><span>payload</span>
-								<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#overflow" aria-expanded="false"
-										aria-controls="overflow">
-									Show
-								</button>
-								<a href="https://github.com/lilchris123/Pentesting/blob/master/lab5.pdf" target="_blank" class="btn btn-sm btn-dark" ><i class="fa fa-github" aria-hidden="true"></i></a>
-							</h4>
-	
-							<h5>Linux, Reverse engineering, C++</h5>
-							
-							<div class="collapse" id="overflow">
-								<p>I was able to exploit a c program vulnerable to a buffer overflow exploit and spawn a shell.
-									For more about this project, press the open button to see the full write up.
-								</p>
-							</div>
-							</div>
-						<div class="py-4">
-						<h3>WIFI Network Pentesting</h3>
-
-						<h4><span>scripting</span>
-							<button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#Wifi" aria-expanded="false"
-									aria-controls="Wifi">
-								Show
-							</button>
-							<button class="btn btn-sm btn-danger" type="button">Open</button>
-						</h4>
-
-						<h5>Linux, Shell Scripting, Aircrack, Reaver</h5>
-						
-						<div class="collapse" id="Wifi">
-							<p>Using Kali linux I was able to hack my personal network. I used two methods to acheive this,
-								which are both fairly simple. First method was a wps pin pixie dust attack, I used aircrack
-								and reaver scripts to run this attack. This method only takes 5-10min to crack WPA2 for
-								routers that are vulnerable. Updating your router to the latest update will patch this.
-								Second method was an evil twin AP, which is basically a mitm social engineering attack
-								prompting the target for the wifi password.</p>
-						</div>
-						</div>
-					</div>
-
-					<div class="clearfix"></div>
-					</div>
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</section>
-	<!-- //education -->
-	<!---728x90--->
-	<!-- skills -->
-
-	<div class="skills" id="skills">
-		<div class="container">
-			<div class="title-w3ls">
-				<h4>My Skills</h4>
-			</div>
-
-			<div class="d-flex flex-row justify-content-around skills-bar">
-				<div class="col-md-6 w3-agile-skills-grid">
-					<section class="bar">
-						<section class="wrap">
-							<div class="wrap_right">
-								<div class="bar_group">
-									<div class="bar_group__bar thin" label="C++" show_values="true" tooltip="true"
-										value="625"></div>
-
-									<div class="bar_group__bar thin" label="Java" show_values="true" tooltip="true"
-										value="585"></div>
-
-									<div class="bar_group__bar thin" label="JavaScript" show_values="true" tooltip="true"
-										value="550"></div>
-
-									<div class="bar_group__bar thin" label="HTML" show_values="true" tooltip="true"
-										value="550"></div>
-
-									<div class="bar_group__bar thin" label="CSS" show_values="true" tooltip="true"
-										value="550"></div>
-								</div>
-							</div>
-
-							<div class="clearfix"></div>
-						</section>
-					</section>
-				</div>
-
-				<div class="col-md-6 w3-agile-skills-grid">
-					<section class="bar">
-						<section class="wrap">
-							<div class="wrap_right">
-								<div class="bar_group">
-									<div class="bar_group__bar thin" label="Bootstrap" show_values="true"
-										tooltip="true" value="475"></div>
-
-									<div class="bar_group__bar thin" label="C" show_values="true" tooltip="true"
-										value="450"></div>
-
-									<div class="bar_group__bar thin" label="Sql" show_values="true" tooltip="true"
-										value="425"></div>
-
-									<div class="bar_group__bar thin" label="Express" show_values="true" tooltip="true"
-										value="300"></div>
-
-									<div class="bar_group__bar thin" label="Mongodb" show_values="true" tooltip="true"
-										value="250"></div>
-								</div>
-							</div>
-
-							<div class="clearfix"></div>
-						</section>
-					</section>
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!-- //skills -->
-	<!-- footer -->
-
-	<div class="w3l_footer">
-		<div class="container">
-
-			<div class="w3ls_footer_grids">
-
-				<div class="w3ls_footer_grid">
-					<div class="col-4 w3ls_footer_grid_left">
-						<!--Github-->
-						<a href="https://github.com/lilchris123" target="_blank"
-							class="btn btn-lg btn-dark">
-							<i class="fa fa-github" aria-hidden="true"></i>
-						</a>
-						<div class="w3ls_footer_grid_leftr">
-							<h5>GitHub</h5>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-4 w3ls_footer_grid_left">
-
-						<a href="https://www.linkedin.com" target="_blank"
-							class="btn btn-lg btn-primary">
-							<i class="fa fa-linkedin"></i>
-						</a>
-						<div class="w3ls_footer_grid_leftr">
-							<h5>Linkedin</h5>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-4 w3ls_footer_grid_left">
-						<div>
-							<a href=# target="_blank" class="btn btn-lg btn-primary">
-								<i class="fa fa-instagram"></i>
-							</a>
-						</div>
-						<div class="w3ls_footer_grid_leftr">
-							<h5>Instagram</h5>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<div class="w3l_footer_pos">
-			<p>© 2018 All Rights Reserved | Design by Chris Mayol</p>
-		</div>
-	</div>
-	<!-- //footer -->
-	<script src="js/bars.js"></script>
-	<!-- start-smoth-scrolling -->
-	<script src="js/SmoothScroll.js"></script>
-	<!-- text-effect -->
-	<script type="text/javascript" src="js/jquery.transit.js"></script>
-	<script type="text/javascript" src="js/jquery.textFx.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('.test').textFx({
-				type: 'fadeIn',
-				iChar: 100,
-				iAnim: 1000
-			});
-		});
-	</script>
-	<!-- //text-effect -->
-	<!-- menu-js -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/menu.js"></script><!-- //menu-js -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
-		});
-	</script><!-- start-smoth-scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-
-		});
-	</script>
-</body>
+            <div class="col-4 w3ls_footer_grid_left">
+              <!--Github-->
+              <a
+                href="https://github.com/lilchris123"
+                target="_blank"
+                class="btn btn-lg btn-dark"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+                <h5>GitHub</h5>
+            </div>
+            <div class="col-4 w3ls_footer_grid_left">
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                class="btn btn-lg btn-primary"
+              >
+                <i class="fa fa-linkedin"></i>
+              </a>
+                <h5>Linkedin</h5>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="w3l_footer_pos">
+        <p>© 2018 All Rights Reserved | Design by Chris Mayol</p>
+      </div>
+    </div>
+    <!-- //footer -->
+    <script src="js/bars.js"></script>
+    <!-- start-smoth-scrolling -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- text-effect -->
+    <script type="text/javascript" src="js/jquery.transit.js"></script>
+    <script type="text/javascript" src="js/jquery.textFx.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".test").textFx({
+          type: "fadeIn",
+          iChar: 100,
+          iAnim: 1000,
+        });
+      });
+    </script>
+    <!-- //text-effect -->
+    <!-- menu-js -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/menu.js"></script>
+    <!-- //menu-js -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            {
+              scrollTop: $(this.hash).offset().top,
+            },
+            1000
+          );
+        });
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $().UItoTop({
+          easingType: "easeOutQuart",
+        });
+      });
+    </script>
+  </body>
 </html>
