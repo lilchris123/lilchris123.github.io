@@ -8,6 +8,7 @@
     padding-bottom: 5px;
 }
 .w3-edu-info2 h5{
+    font-size: 1.2em;
     color: darkgoldenrod;
 }
 .spacing{
@@ -1298,7 +1299,7 @@ h4.modal-title {
     background-size: cover;
 	}
 	.w3-edu-info2 h3 {
-    font-size: 1.8em;
+    font-size: 1.7em;
     letter-spacing: 1px;
 	}
 	.jm-item-button {
@@ -1525,9 +1526,13 @@ h4.modal-title {
     width: 91%;
 	}
 	.w3-edu-info2 h3 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     letter-spacing: 1px;
-	}
+    }
+    .w3-edu-info2 h5{
+        font-size: 1em;
+        color: darkgoldenrod;
+    }
 	.jm-item-image {
     width: 240px;
     height: 200px;
